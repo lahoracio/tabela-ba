@@ -1,0 +1,48 @@
+body/* Define a fonte padrão e o estilo do corpo da página */ {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table/* Define o estilo geral da tabela */ {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td/* Define o estilo das células de cabeçalho e das células da tabela */ {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th/* Define o estilo das células de cabeçalho */ {    background-color: #f4f4f4;
+    color: #333;
+}
+
+tr:nth-child(even)/* Define o estilo para linhas pares da tabela */ {
+    background-color: #f9f9f9;
+}
+
+tr:hover/* Define o estilo para linhas da tabela quando o cursor passa sobre elas */ {
+    background-color: #f1f1f1;
+}
+
+img.logo/* Define o estilo das imagens dentro das células da tabela */ {
+    max-width: 100px;
+    height: auto;
+}
+
+a/* Define o estilo dos links */ {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a/* Define o estilo dos links quando o cursor passa sobre eles */:hover {
+    text-decoration: underline;
+}
+
+td img/* Define o estilo das imagens dentro das células (especificamente) */ {
+  width: 20%;}
